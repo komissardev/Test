@@ -1,0 +1,36 @@
+/*Global style start*/
+@import url("./global_styles/reset_style.css");
+@import url("./global_styles/fonts-style.css");
+@import url("./global_styles/background-color_style.css");
+@import url("./global_styles/color_style.css");
+@import url("./global_styles/pre-loader.css");
+@import url("./global_styles/navigation.css");
+@import url("./global_styles/sect-request.css");
+@import url("./global_styles/footer.css");
+/*Global style end*/
+
+/*Pages style start*/
+@import url("./pages_styles/header/header-home.css");
+@import url("./pages_styles/main/main-home.css");
+@import url("./pages_styles/about-us/about-us.css");
+@import url("./pages_styles/about-master/about-master.css");
+@import url("./pages_styles/services/services.css");
+/*Pages style end*/
+
+/*Adaptive style start*/
+@import url("./adaptive_styles/adaptive-home-page.css");
+@import url("./adaptive_styles/adaptive-about-us.css");
+@import url("./adaptive_styles/adaptive-about-master.css");
+@import url("./adaptive_styles/adaptive-services.css");
+/*Adaptive style end*/
+
+.body-cont{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: var(--bd-cr-nav-grey);
+}
+
+.root{
+    width: 100%;
+}

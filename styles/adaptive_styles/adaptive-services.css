@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px){
+    .services-cont{
+        width: 100%;
+        border-radius: unset;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .services-cont-list{
+        margin: 10px;
+    }
+
+    .services-cont h2{
+        width: auto;
+        font-size: 3rem;
+    }
+
+    .price-text,
+    .price-value,
+    .price-text-info{
+        font-size: 1.8rem;
+}
+}

@@ -1,0 +1,204 @@
+.body-cont__main{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding: 150px 0px 130px;
+}
+
+.main__section-indicat,
+.main__section-advant,
+.main__section-contraindic{
+    width: 100%;
+}
+
+.main__section-indicat,
+.main__section-advant{
+    margin-bottom: 150px;
+}
+
+
+.section-indicat__cont,
+.section-advant__cont,
+.section-contraindic__cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 50px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-advant__cont,
+.section-contraindic__cont{
+    margin-top: 50px;
+}
+
+.section-indicat__cont{
+    background-image: url("/assets/images/image-indicat.jpg");
+}
+
+.section-advant__cont{
+    background-image: url("/assets/images/image-advant.jpg");
+}
+
+.section-contraindic__cont{
+    background-image: url("/assets/images/image-contraindic.jpg");
+}
+
+.section-indicat__banner,
+.section-advant__banner,
+.section-contraindic__banner{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    padding: 30px 100px 30px;
+
+    font-family: var( --font-family-roboto);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 500;
+    font-size: 3rem;
+    line-height: 35px;
+
+    text-shadow: 1px 1px 2px var(--cr-black);
+    color: var(--cr-white);
+    background-color: var(--bd-cr-nav-light-mint-opacity);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.section-indicat__banner,
+.section-contraindic__banner{
+    margin-left: 50%;
+}
+
+.section-advant__banner{
+    margin-left: 5%;
+}
+
+.section-indicat__list,
+.section-advant__list,
+.section-contraindic__list{
+    padding-top: 20px;
+    width: 45%;
+
+    font-family: var( --font-family-roboto);
+    font-size: 500;
+    font-size: 2.4rem;
+    text-shadow: 1px 1px 2px var(--cr-black);
+
+    color: var(--cr-white);
+    background-color: var(--bd-cr-nav-grey-opacity);
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+}
+
+
+.section-indicat__list,
+.section-contraindic__list{
+    margin-left: 50%;
+}
+
+.section-advant__list{
+    margin-left: 5%;
+}
+
+.section-indicat__list-item,
+.section-advant__list-item,
+.section-contraindic__list-item{
+    position: relative;
+    width: 85%;
+    margin: 0px auto 20px;
+    padding-left: 40px;
+    line-height: 35px;
+}
+
+.section-indicat__list-item::before,
+.section-advant__list-item::before,
+.section-contraindic__list-item::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-indicat__list-item::before{
+    background-image: url("/assets/images/svg/round-plus.svg");
+}
+
+.section-advant__list-item::before{
+    background-image: url("/assets/images/svg/star-round.svg");
+}
+
+.section-contraindic__list-item::before{
+    background-image: url("/assets/images/svg/cross-round.svg");
+}
+
+
+.main__section-why-we{
+    position: relative;
+    width: 100%;
+    margin: 100px auto 0px;
+    background-color: var(--bd-cr-nav-light-mint-opacity);
+    border-radius: 40px;
+}
+
+
+.section-why-we__cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.section-why-we__cont__banner{
+    margin-bottom: 70px;
+    font-family: var( --font-family-roboto);
+    font-size: 500;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 55px;
+    text-shadow: 1px 1px 2px var(--cr-black);
+    color: var(--bd-cr-white);
+}
+
+.section-why-we__cont__text{
+    position: relative;
+    width: 70%;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    padding: 40px;
+
+    font-family: var( --font-family-roboto);
+    font-size: 500;
+    font-size: 2.4rem;
+    line-height: 35px;
+    text-shadow: 1px 1px 2px var(--cr-black);
+    
+    color: var(--cr-white);
+    background-color: var( --bd-cr-nav-grey-opacity);
+    border-radius: 20px;
+}
+
+.section-why-we__cont__text::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    left: -80px;
+    transform: translateY(-50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/images/svg/safety-supervision.svg");
+}
